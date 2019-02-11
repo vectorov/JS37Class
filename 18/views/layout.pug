@@ -1,0 +1,21 @@
+doctype html
+html(lang='en')
+    head
+        link(rel="stylesheet", href="/css/bootstrap.min.css", attr)
+        link(rel="stylesheet", href="/style.css", attr)
+        meta(charset='utf-8')
+        title= title
+    body
+        nav.navbar.navbar-inverse.navbar-fixed-top
+            .container
+                #navbar.collapse.navbar-collapse
+                    ul.nav.navbar-nav
+                        li.active
+                            a(href="/") Home
+                        li
+                            a(href="/courses") Courses
+        .container
+            .main-content
+                block content
+                        
+                    
